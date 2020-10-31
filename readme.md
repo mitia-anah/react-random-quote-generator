@@ -26,15 +26,15 @@ Template for your readme :
 
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">React Random Quote</h1>
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://github.com/mitia-anah/react-random-quote-generator">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://random-quote-by-react.netlify.app/">
       Solution
     </a>
   </h3>
@@ -55,14 +55,16 @@ Template for your readme :
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot]("./assets/random-quote-p1.png")
+![screenshot]('./assets/random-quote-p2.png')
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
--   Where can I see your demo?
--   What was your experience?
--   What have you learned/improved?
--   Your wisdom? :)
+### Demo
+Go to `"https://github.com/mitia-anah/react-random-quote-generator"` to see the full project demo.
+
+### Experience
+ In this project, we tried to get random quote from API link works by using `react`. The first thing we did is creating a `component` folder which held the Quote.js and QuoteByAuthor.js. Then we did import these two files into App.js file.
 
 ### Built With
 

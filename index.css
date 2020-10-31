@@ -1,0 +1,68 @@
+.wrapper {
+    position: relative;
+}
+.container {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    right: 15%;
+}
+
+.list-of-quotes,
+.quote{
+    border-left: 8px solid #F7DF94;
+
+}
+
+.list-of-quotes,
+h2 {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 36px;
+    padding-inline-start: 3rem;
+    line-height: 120%;
+    color: #000000;
+}
+.author-and-genre {
+    max-width: 100%;
+    margin-inline-start: 3rem;
+    background: #333333;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F2F2F2;
+    padding: 1rem;
+    margin: 0;
+}
+.genre {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+    padding: 1rem;
+    margin-block-start: 0;
+}
+
+.random-btn {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.lists-holder ul{
+    padding-inline-start: 0;
+}
+.list-of-quotes {
+    list-style: none;
+    margin: 5rem;
+    padding-inline-start: 3rem;
+}
+
+.author-name {
+    margin-inline-start: 8rem;    
+    font-weight: bold;
+    font-size: 36px;
+    color: #333333;
+}
